@@ -176,3 +176,64 @@ i{
 	width: 643px !important;
 }
 }
+#modal1{
+	width: 400px;
+	height: 560px;
+}
+.modal-content{
+	text-align: center;
+	
+}
+.zagolovok{
+	font-size: 18px;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+.info{
+	font-size: 14px;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    font-weight: 400;
+    width: 370px;
+}
+.nameform{
+	font-weight: 600;
+	padding-left: 15px;
+}
+.inputstyle {
+	    border: 2px #e7e7e7 solid !important;
+	width:360px  !important;
+	margin-left: 18px !important;
+	margin-top: 10px !important;
+	height: 40px !important;
+}
+.inputstyle:hover {
+	border: 2px solid #0083cb !important;
+	box-shadow: none !important;
+}
+#knp{	
+	font-size: 13px;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: center;
+	vertical-align: middle;
+color: white;
+height: 46px;
+width: 280px;
+background-color: #0083cb;
+border-radius: none !important;
+font-weight: 700;
+line-height: 44px;
+}
+#knp:hover{	
+	font-size: 13px;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: center;
+	vertical-align:bottom;
+color: white;
+height: 46px;
+width: 280px;
+background-color: #004B88;
+border-radius: none !important;
+line-height: 44px;
+}
