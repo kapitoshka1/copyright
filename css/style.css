@@ -177,8 +177,12 @@ i{
 }
 }
 #modal1{
-	width: 400px;
-	height: 560px;
+	width: 400px !important;
+	height: 560px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	margin-top: -400px;
+	margin-left: 400px;
 }
 .modal-content{
 	text-align: center;
@@ -234,6 +238,40 @@ color: white;
 height: 46px;
 width: 280px;
 background-color: #004B88;
+border-radius: none !important;
+line-height: 44px;
+}
+
+label{
+	display: inline;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items:flex-start;
+	text-align: center;
+	margin-left: 44px;
+	margin-top: 10px;
+}
+.rovno{
+	text-align: center;
+}
+.soglasie {
+font: 100 14px/1.5 OpenSans,arial,sans-serif;
+color: black;
+}
+.yslovie{
+color: gray;
+font-size: 12px;
+}
+#knp:active{	
+	font-size: 13px;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: center;
+	vertical-align:bottom;
+color: white;
+height: 46px;
+width: 280px;
+background-color: #004B88 !important;
 border-radius: none !important;
 line-height: 44px;
 }

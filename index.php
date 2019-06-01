@@ -58,7 +58,7 @@
 		<div class="postzapros">
 			<div class="postins">
 				<span>Или просто отправьте нам запрос</span>
-							        <button data-target="modal1" class="btn modal-trigger" type="submit" class="but1">
+							        <button data-target="modal1" class="but1 modal-trigger" type="submit" class="but1">
 			        	Отправить нам запрос
 			        </button>
 			        <span class="texts">Менеджер свяжется за 15 минут</span>
@@ -69,7 +69,7 @@
       <h class="zagolovok">ОБРАТНЫЙ ЗВОНОК</h>
       <p class="info">Если по каким-то причинам вы не смогли дозвониться нам, оставьте свои контактные данные и наши специалисты свяжутся с вами в ближайшее время.</p>
     </div>
-    <div class="nameform">Имя *</div>
+    <div class="nameform" style="">Имя *</div>
     <container>
 <div class="form1">
 <input class="inputstyle" type="text" form-field-name="Имя" required="">
@@ -82,11 +82,18 @@
 </div>
 </container>
     <div class="modal-footer" style="text-align: center;">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="knp" label for="vosem">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="knp" >ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
     </div>
-    <div class="soglasie" style="text-align: center;">
-    	<input type="checkbox" id="vosem"/>Я согласен на обработку <a href=#>личных данных</a>
-    </div>
+    <div class="rovno">
+    <label >
+                <input  type="checkbox" checked="">
+                <span class="check check_min"></span><q1 class="soglasie">Я согласен на обработку<q1/>  <a href=#>  личных данных</a>
+   
+    </label>
+
+    <div class="yslovie">* — поля, обязательные для заполнения</div>
+ </div>
+
   </div>
 	<div class="postservices">
 			<div class="icons">
